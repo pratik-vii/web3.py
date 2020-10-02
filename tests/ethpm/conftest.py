@@ -20,8 +20,8 @@ from ethpm.uri import (
     create_latest_block_uri,
 )
 from web3 import Web3
-from web3.tools import (  # noqa: E741
-    linker as l,
+from web3.tools import (
+    linker as l,  # noqa: E741
 )
 
 V3_PACKAGE_NAMES = [

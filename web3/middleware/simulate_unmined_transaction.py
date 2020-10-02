@@ -1,17 +1,16 @@
 import collections
 import itertools
-from typing import (  # noqa: F401
+from typing import (
     Any,
-    Callable,
-    Dict,
+    Callable, DefaultDict
 )
 
-from eth_typing import (  # noqa: F401
+from eth_typing import (
     Hash32,
 )
 
 from web3 import Web3
-from web3.types import (  # noqa: F401
+from web3.types import (
     RPCEndpoint,
     RPCResponse,
     TxReceipt,
